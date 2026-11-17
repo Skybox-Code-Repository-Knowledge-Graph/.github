@@ -1,0 +1,45 @@
+<svg width="520" height="150" viewBox="0 0 520 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="skybox — code repository knowledge graph">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.55" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- relationships reaching out from the box -->
+  <g stroke="url(#sky)" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round" opacity="0.9">
+    <path d="M 237.5 21 C 190 6, 130 10, 84 30"/>
+    <path d="M 237.5 47 C 200 60, 170 56, 138 50"/>
+    <path d="M 282.5 21 C 330 6, 390 12, 440 28"/>
+    <path d="M 282.5 47 C 320 60, 350 56, 384 50"/>
+  </g>
+  <g fill="url(#sky)">
+    <circle cx="84" cy="30" r="5"/>
+    <circle cx="138" cy="50" r="4.5"/>
+    <circle cx="384" cy="50" r="4.5"/>
+    <circle cx="440" cy="28" r="5"/>
+  </g>
+
+  <!-- the box: a cube drawn as a graph of nodes and edges -->
+  <g stroke="url(#sky)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 260 8 L 282.5 21 L 282.5 47 L 260 60 L 237.5 47 L 237.5 21 Z"/>
+    <path d="M 237.5 21 L 260 34 L 282.5 21 M 260 34 L 260 60"/>
+  </g>
+  <g fill="url(#sky)">
+    <circle cx="260" cy="8" r="3.5"/>
+    <circle cx="282.5" cy="21" r="3.5"/>
+    <circle cx="282.5" cy="47" r="3.5"/>
+    <circle cx="260" cy="60" r="3.5"/>
+    <circle cx="237.5" cy="47" r="3.5"/>
+    <circle cx="237.5" cy="21" r="3.5"/>
+    <circle cx="260" cy="34" r="4.5"/>
+  </g>
+
+  <text x="50%" y="116" text-anchor="middle"
+        font-family="ui-rounded, 'SF Pro Rounded', system-ui, -apple-system, 'Segoe UI', sans-serif"
+        font-size="56" font-weight="800" letter-spacing="-2" fill="url(#sky)">skybox</text>
+  <text x="50%" y="142" text-anchor="middle"
+        font-family="system-ui, -apple-system, 'Segoe UI', sans-serif"
+        font-size="15" font-weight="500" letter-spacing="3" fill="#8b95a7">CODE REPOSITORY KNOWLEDGE GRAPH</text>
+</svg>
