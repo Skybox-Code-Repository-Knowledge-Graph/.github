@@ -35,6 +35,11 @@ flowchart LR
     style A fill:#22c55e,color:#fff,stroke:none
 ```
 
+## For teams
+
+- 🔐 **Gateway**: admins decide who can reach what. Each group gets the repositories and tools it needs and nothing more, with an audit log behind it.
+- 🔄 **Webhook**: connect GitHub once and the graph stays current. When a pull request merges, skybox pulls the new code and re-indexes on its own.
+
 ## Try it
 
 ```bash
